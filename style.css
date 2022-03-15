@@ -1,0 +1,154 @@
+body {
+  background-color: #f6f5f5;
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  width: 100%;
+  height: 95vh;
+  background-image: url("/bgbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 700;
+}
+.logo {
+  color: black;
+  font-size: 22px;
+}
+.active {
+  font-weight: bold;
+  color: #2d2a2a;
+}
+.text-container p:nth-child(1) {
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  font-size: 60px;
+  line-height: 30px;
+}
+.text-container p:nth-child(3) {
+  color: #1a1a1a;
+  font-size: 30px;
+}
+.text-container p {
+  line-height: 0px;
+  margin: 40px 0px 25px;
+}
+.text-container {
+  position: absolute;
+  left: 15%;
+  top: 42%;
+  transform: translate(-15%, -42%);
+}
+.text-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  margin: 0px 10px;
+}
+.hire-btn {
+  border: 2px solid #373636;
+  color: #373636;
+}
+
+.linkedin {
+  border: 2px solid #373636;
+}
+button:active {
+  transform: scale(1.1);
+}
+.model {
+  height: 400px;
+  position: absolute;
+  bottom: 0px;
+  left: 70%;
+  transform: translateX(-70%);
+}
+.about-container {
+  width: 80%;
+  height: 1150px;
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 2);
+  display: flex;
+  margin: 5% auto 20px auto;
+  position: relative;
+}
+
+.content {
+  padding: 50px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  color: brown;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #333;
+  height: 50px;
+  width: auto;
+  padding: 2px;
+}
+.footer .copy {
+  color: #f0f6bb;
+  text-align: center;
+  font-size: 12px;
+}
+button {
+  width: 95px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  margin: 0px 10px;
+  background-color: fffff;
+}
